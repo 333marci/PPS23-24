@@ -21,7 +21,7 @@ const acercaRoutes = require('./routes/acerca');
 const contactoRoutes = require('./routes/contacto');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 const bloqueoRoutes = require('./routes/bloqueo');
 
 // Middleware
